@@ -33,7 +33,7 @@ New-FinancialChart -stockData "http://localhost:10010/StockData.csv" -chartType 
     Open,High,Close,Low,Volume,Date
     ```
 
-    Date format MUST be dd-mm-yyyy (e.g 17-01-2017) except for CandleStickChartForContinuousIntraDay ( date format MUST be in <dd-mm-yyyy hh:mm:ss> ). Day less than 10 must be 0 padded. e.g 01-12-2020 for 1 Dec 2020.
+    Date format MUST be dd-mm-yyyy (e.g 17-01-2017) except for CandleStickChartForContinuousIntraDay ( date format MUST be in <dd-mm-yyyy hh:mm:ss> ). Days less than 10 must be 0 padded. e.g 01-12-2020 for 1 Dec 2020.
     Transform the data using PowerShell something like this;
 
     * 1 Year Stock History Data Transformation, remove double quotes, date into <dd-mm-yyyy> format
@@ -116,6 +116,6 @@ Start-UDDashboard -ListenAddress 127.0.0.1 -Port 11000 -Dashboard $myDashboard -
 
 ## LINKS
 
-[blog](https://blog.darrenjrobinson.com) https://blog.darrenjrobinson.com
+[blog](https://blog.darrenjrobinson.com/react-stockcharts-for-powershell-universal-dashboard/) https://blog.darrenjrobinson.com/react-stockcharts-for-powershell-universal-dashboard/
 
 [twitter](https://twitter.com/darrenjrobinson) https://twitter.com/darrenjrobinson
