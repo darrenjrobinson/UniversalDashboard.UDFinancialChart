@@ -1,4 +1,3 @@
-
 # The main index.js bundle
 $IndexJs = Get-ChildItem "$PSScriptRoot\index.*.bundle.js"
 
