@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator & CandleStickChartForContinuousIntraDay.
+    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator, CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, CandleStickChartWithMA & CandleStickChartForContinuousIntraDay.
 .DESCRIPTION
-    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator & CandleStickChartForContinuousIntraDay.
+    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator, CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, CandleStickChartWithMA & CandleStickChartForContinuousIntraDay.
 .PARAMETER Id
     An id for the component 
 .EXAMPLE
@@ -37,7 +37,7 @@ function New-FinancialChart {
         [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
         [string]$stockData,
         [Parameter(Mandatory = $false, ValueFromPipeline = $true)]
-        [ValidateSet("CandleStickChartWithFullStochasticsIndicator", "MovingAverageCrossOverAlgorithmV2", "CandleStickChartForContinuousIntraDay")]
+        [ValidateSet("CandleStickChartWithFullStochasticsIndicator", "MovingAverageCrossOverAlgorithmV2", "CandleStickChartForContinuousIntraDay", "CandleStickChartWithMACDIndicator", "CandleStickChartWithRSIIndicator", "CandleStickChartWithBollingerBandOverlay", "CandleStickChartWithMA")]
         [string]$chartType = "MovingAverageCrossOverAlgorithmV2")
 
         End {
@@ -49,14 +49,9 @@ function New-FinancialChart {
             isPlugin = $true 
             # This ID must be the same as the one used in the JavaScript to register the control with UD
             type     = "UDFinancialChart"
-            # An ID is mandatory 
             id       = $Id
-
-            # # This is where you can put any other properties. They are passed to the React control's props
-            # # The keys are case-sensitive in JS. 
             stockData     = $stockData
             chartType = $chartType
-            importChart = "./Chart-$($chartType)"
         }
     }
 }

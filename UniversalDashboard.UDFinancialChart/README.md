@@ -10,6 +10,8 @@ install-module -name UniversalDashboard.UDFinancialChart
 ```
 
 ## DESCRIPTION
+v1.0.1 includes 4 additional charts CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, "CandleStickChartWithMA
+
 CandleStickChartWithFullStochasticsIndicator, MovingAverageCrossOverAlgorithmV2 and CandleStickChartForContinuousIntraDay [React-StockCharts](https://github.com/rrag/react-stockcharts) for [Universal Dashboard](https://universaldashboard.io/)  
 
 ## Example Charts
