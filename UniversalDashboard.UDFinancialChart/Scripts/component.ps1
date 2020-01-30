@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator, CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, CandleStickChartWithMA & CandleStickChartForContinuousIntraDay.
+    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator, CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, CandleStickChartWithMA, CandleStickChartWithSAR, CandleStickChartWithGannFan, OHLCChartWithElderRayIndicator, OHLCChartWithElderImpulseIndicator & CandleStickChartForContinuousIntraDay.
 .DESCRIPTION
-    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator, CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, CandleStickChartWithMA & CandleStickChartForContinuousIntraDay.
+    React-StockCharts MovingAverageCrossOverAlgorithmV2, CandleStickChartWithFullStochasticsIndicator, CandleStickChartWithMACDIndicator, CandleStickChartWithRSIIndicator, CandleStickChartWithBollingerBandOverlay, CandleStickChartWithMA, CandleStickChartWithSAR, CandleStickChartWithGannFan, OHLCChartWithElderRayIndicator, OHLCChartWithElderImpulseIndicator & CandleStickChartForContinuousIntraDay.
 .PARAMETER Id
     An id for the component 
 .EXAMPLE
@@ -37,7 +37,7 @@ function New-FinancialChart {
         [Parameter(Mandatory = $true, ValueFromPipeline = $true)]
         [string]$stockData,
         [Parameter(Mandatory = $false, ValueFromPipeline = $true)]
-        [ValidateSet("CandleStickChartWithFullStochasticsIndicator", "MovingAverageCrossOverAlgorithmV2", "CandleStickChartForContinuousIntraDay", "CandleStickChartWithMACDIndicator", "CandleStickChartWithRSIIndicator", "CandleStickChartWithBollingerBandOverlay", "CandleStickChartWithMA")]
+        [ValidateSet("CandleStickChartWithFullStochasticsIndicator", "MovingAverageCrossOverAlgorithmV2", "CandleStickChartForContinuousIntraDay", "CandleStickChartWithMACDIndicator", "CandleStickChartWithRSIIndicator", "CandleStickChartWithBollingerBandOverlay", "CandleStickChartWithMA", "CandleStickChartWithSAR", "CandleStickChartWithGannFan", "OHLCChartWithElderRayIndicator", "OHLCChartWithElderImpulseIndicator")]
         [string]$chartType = "MovingAverageCrossOverAlgorithmV2")
 
         End {
