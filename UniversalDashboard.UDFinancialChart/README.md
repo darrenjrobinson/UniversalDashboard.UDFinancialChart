@@ -10,7 +10,12 @@ install-module -name UniversalDashboard.UDFinancialChart
 ```
 
 ## DESCRIPTION
-CandleStickChartWithFullStochasticsIndicator, MovingAverageCrossOverAlgorithmV2 and CandleStickChartForContinuousIntraDay [React-StockCharts](https://github.com/rrag/react-stockcharts) for [Universal Dashboard](https://universaldashboard.io/)  
+<b>v1.0.2 includes another 4 additional charts</b></br>
+Candle Stick Chart with SAR, Candle Stick Chart with Gann Fan, OHLC Chart with Elder Ray Indicator and OHLC Chart with Elder Impulse Indicator.
+
+<b>v1.0.1 includes 4 additional charts</b></br> Candle Stick Chart with MACD Indicator, Candle Stick Chart with RSIIndicator, Candle Stick Chart with Bollinger Band Overlay and Candle Stick Chart with MA.
+
+Candle Stick Chart with Full Stochastics Indicator, Moving Average Cross Over Algorithm V2 and Candle Stick Chart for Continuous IntraDay</br> [React-StockCharts](https://github.com/rrag/react-stockcharts) for [Universal Dashboard](https://universaldashboard.io/)  
 
 ## Example Charts
 ![Example Charts](React-StockCharts_for_PowerShell_Universal_Dashboard.PNG)
