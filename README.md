@@ -1,4 +1,7 @@
 # UniversalDashboard.UDFinancialChart
+
+[![PSGallery Version](https://img.shields.io/powershellgallery/v/UniversalDashboard.UDFinancialChart.svg?style=flat&logo=powershell&label=PSGallery%20Version)](https://www.powershellgallery.com/packages/UniversalDashboard.UDFinancialChart) [![PSGallery Downloads](https://img.shields.io/powershellgallery/dt/UniversalDashboard.UDFinancialChart.svg?style=flat&logo=powershell&label=PSGallery%20Downloads)](https://www.powershellgallery.com/packages/UniversalDashboard.UDFinancialChart)
+
 React-Stockcharts for Universal Dashboard.
 
 [Available in the PowerShell Gallery](https://www.powershellgallery.com/packages/UniversalDashboard.UDFinancialChart)
@@ -10,6 +13,9 @@ install-module -name UniversalDashboard.UDFinancialChart
 ```
 
 ## DESCRIPTION
+<b>v1.0.3 includes 2 additional charts</b></br>
+Candle Stick Stock Scale Chart with Volume Bar and Candle Stick Chart with Edge.
+
 <b>v1.0.2 includes another 4 additional charts</b></br>
 Candle Stick Chart with SAR, Candle Stick Chart with Gann Fan, OHLC Chart with Elder Ray Indicator and OHLC Chart with Elder Impulse Indicator.
 
@@ -121,6 +127,6 @@ Start-UDDashboard -ListenAddress 127.0.0.1 -Port 11000 -Dashboard $myDashboard -
 
 ## LINKS
 
-[blog](https://blog.darrenjrobinson.com/react-stockcharts-for-powershell-universal-dashboard/) https://blog.darrenjrobinson.com/react-stockcharts-for-powershell-universal-dashboard/
+* [Associated blog](https://blog.darrenjrobinson.com/react-stockcharts-for-powershell-universal-dashboard/) https://blog.darrenjrobinson.com/react-stockcharts-for-powershell-universal-dashboard/
+* [Follow darrenjrobinson on Twitter](https://twitter.com/darrenjrobinson)![](http://twitter.com/favicon.ico)
 
-[twitter](https://twitter.com/darrenjrobinson) https://twitter.com/darrenjrobinson
